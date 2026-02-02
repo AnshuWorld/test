@@ -1,9 +1,21 @@
 import Image from "next/image";
+import {Menu, X} from "lucide-react";
+import Menubar from "../components/Menubar";
+import Header from "../components/Header";  
+import Carousel from "@/components/Carousel";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
+import Cards from "@/components/Cards";
 
 export default function Home() {
   return (
-    <button className="px-4 py-2 bg-red-900 hover:bg-blue-900 shadow-2xl rounded-3xl flex items-center">
-      Amrit!
-    </button>
+    <main className="min-h-screen">
+      <Carousel />
+      <Header />
+          
+      <Contact />
+      <Footer/>
+      
+    </main>
   );
 }
