@@ -13,7 +13,7 @@ export default function shop() {
         { id: 10, productImageLink: "https://images.pexels.com/photos/7814788/pexels-photo-7814788.jpeg", cost: "₹899" },
         { id: 11, productImageLink: "https://images.pexels.com/photos/9243179/pexels-photo-9243179.jpeg", cost: "₹299" }
 
-    ];
+    ]; 
 
     return (
     
