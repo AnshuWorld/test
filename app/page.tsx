@@ -7,7 +7,7 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Cards from "@/components/Cards";
 
-export default function Home() {
+export default function Home() { 
   return (
     <main className="min-h-screen">
       <Carousel />
