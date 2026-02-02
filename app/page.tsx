@@ -14,7 +14,7 @@ export default function Home() {
       <Header />
           
       <Contact />
-      <Footer/>
+      
       
     </main>
   );
