@@ -16,7 +16,7 @@ export default function Menubar() {
           <li><a href="#" className="p-4 hover:bg-blue-900">Products</a></li>
           <li><a href="#" className="p-4 hover:bg-blue-900">Services</a></li>
           <li><a href="#" className="p-4 hover:bg-blue-900">Testinomials</a></li>
-          <li><Link href="/shop" className="p-4 hover:bg-blue-900">Support</Link></li>
+          <li><Link href="/shop" className="p-4 hover:bg-blue-900">Shop</Link></li>
         </ul>
       </div>
       {isOpen && 
@@ -25,7 +25,7 @@ export default function Menubar() {
           <li><a href="#" className="block p-4 hover:bg-blue-900">Products</a></li>
           <li><a href="#" className="block p-4 hover:bg-blue-900">Services</a></li>
           <li><a href="#" className="block p-4 hover:bg-blue-900">Testinomials</a></li>
-          <li><Link href="/shop" className="p-4 hover:bg-blue-900">Support</Link></li>
+          <li><Link href="/shop" className="p-4 hover:bg-blue-900">Shop</Link></li>
         </ul>
       }
     </nav>
